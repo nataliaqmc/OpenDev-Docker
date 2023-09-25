@@ -1,11 +1,7 @@
-# Open Source Development - Docker:
-#### Integrantes: 
-  - Henrique Alberti
-- Natália Carreras
+# Servidor de desafios:
 
-## Inicializando o projeto:
-#### Clanando o projeto:
-      git clone https://github.com/nataliaqmc/OpenDev-Docker.git
-#### Instalando as dependencias:
-      pip3 install -r requirements.txt
-        
+### Como inicializar o docker:
+#### Criando um arquivo "users.csv":
+Dentro da pasta "src" crie um arquivo csv com **user, password, type**
+#### Rode a linha para criar o banco de dados:
+    sqlite3 quiz.db < quiz.sql
